@@ -1,0 +1,49 @@
+/* add your CSS here */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  box-shadow: -5px -2px 50px -9px rgba(0, 0, 0, 0.75);
+  margin: 10px auto;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  text-align: left;
+}
+
+img {
+  width: 300px;
+}
+
+.info {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  padding: 10px;
+  width: 280px;
+}
+
+.info p:first-of-type,
+.info p:last-of-type,
+.info ul {
+  margin: 10px 0;
+}
+
+.info p:first-of-type {
+  font-style: italic;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.info ul li {
+  list-style-type: none;
+  margin: 0;
+}
